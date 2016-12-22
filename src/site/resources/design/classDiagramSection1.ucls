@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.11" icons="true" automaticImage="PNG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <interface id="1" language="java" name="section1.MyGenericContainerInterface" 
+    project="it114-final-part2-silvanaRomero" 
+    file="/it114-final-part2-silvanaRomero/src/main/java/section1/MyGenericContainerInterface.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="211" x="386" y="248"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="section1.MyGenericStaticMethodUtilityTester" 
+    project="it114-final-part2-silvanaRomero" 
+    file="/it114-final-part2-silvanaRomero/src/main/java/section1/MyGenericStaticMethodUtilityTester.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="226" x="120" y="91"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="section1.MyGenericContainerClass" project="it114-final-part2-silvanaRomero" 
+    file="/it114-final-part2-silvanaRomero/src/main/java/section1/MyGenericContainerClass.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="192" x="386" y="91"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="section1.MyGenericStaticMethodUtility" project="it114-final-part2-silvanaRomero" 
+    file="/it114-final-part2-silvanaRomero/src/main/java/section1/MyGenericStaticMethodUtility.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="190" x="618" y="91"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="section1.MyGenericContainerTester" project="it114-final-part2-silvanaRomero" 
+    file="/it114-final-part2-silvanaRomero/src/main/java/section1/MyGenericContainerTester.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="175" x="848" y="91"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="6">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
